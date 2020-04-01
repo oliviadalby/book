@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book_site.title %>
+</p>
+
+<p>
+  <strong>Page count:</strong>
+  <%= @book_site.page_count %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @book_site.rating %>
+</p>
+
+<%= link_to 'Edit', edit_book_site_path(@book_site) %> |
+<%= link_to 'Back', book_sites_path %>
